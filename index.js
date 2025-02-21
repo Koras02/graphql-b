@@ -13,6 +13,8 @@ const schema = buildSchema(`
         name: String!
         age: Int!
     }
+        
+  
 `);
 
 const users = [
@@ -29,7 +31,7 @@ const root = {
 // Express 서버 생성
 const app = express();
 
-// GraphQL 미들웽 ㅓ 생성
+// GraphQL 미들웨어 생성
 app.use(
   "/graphql",
   graphqlHTTP({
