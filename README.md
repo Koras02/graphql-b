@@ -32,7 +32,7 @@
 
 - 다양한 스칼라 타입 (String, Int, Boolean 등) 사용법 ✅
 - 커스텀 타입 (Object Types) 만들기 ✅
-- 인자 전달과 반환값 다루기
+- 인자 전달과 반환값 다루기 ✅
 - List와 Non-Null 타입 지정 방법
 
 ---
